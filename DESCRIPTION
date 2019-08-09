@@ -1,0 +1,20 @@
+Package: geotibble
+Type: Package
+Title: Reimagines sp data objects for the modern tidyverse R world
+Version: 0.1.0
+Author: Eric Stern
+Maintainer: eric.stern1@gmail.com
+Description: Ever since Hadley brutally took over the R community, Base R and non tidy 
+    programing has gone by the way side. We are okay with this. geotibble is a brutal
+    emulation of the packages tibble and tsibble. 
+    
+    Long live the tidyverse.
+License: xxx
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    sp,
+    gstats,
+    tibble,
+    dplyr,
+    rlang
